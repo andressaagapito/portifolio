@@ -1,0 +1,46 @@
+import React from "react";
+
+function Education() {
+  return (
+    // Container principal, centralizado horizontalmente
+    <div className="container mx-auto">
+      {/* Título da seção "Qualificação" com fundo amarelo e texto centralizado */}
+      <div className="bg-yellow-400 p-2 mb-2 text-left">
+        <h1 className="text-xl font-bold text-gray-800 m-0 text-center">
+          QUALIFICAÇÃO
+        </h1>
+      </div>
+
+      {/* Container flexível para o conteúdo principal, com rolagem automática caso o conteúdo exceda a altura */}
+      <div className="flex flex-wrap justify-center items-center bg-[#efe3d4] w-full h-[80vh] overflow-auto">
+        {/* Caixa de texto com detalhes da qualificação, centralizada e responsiva */}
+        <div
+          className={`flex flex-wrap justify-center items-center font-jetbrains bg-[#f2fff5] w-4/5 h-4/5 mx-auto p-5 text-base box-border overflow-auto shadow-lg transform rotate-1 lg:w-10/12 md:w-10/12 sm:w-11/12 sm:h-2/3 sm:p-4 sm:text-sm`}>
+          {/* Texto descritivo da qualificação, incluindo formação acadêmica e certificações */}
+          <p>
+            {/* Informação sobre a universidade e curso */}
+            Universidade Estácio de Sá
+            <br />
+            <strong>Análise e Desenvolvimento de Sistemas</strong>
+            <br />
+            <em>2021, 2025</em>
+            <br />
+            <br />
+            {/* Nível de inglês */}
+            <strong>Inglês</strong>: Intermediário
+            <br />
+            <br />
+            {/* Certificações e cursos adicionais */}
+            <strong>Fundamentos de Product Discovery</strong>
+            <br />
+            <strong>Princípios de Gerenciamento de Projetos</strong>
+            <br />
+            <strong>Scrum Fundamentals Certified</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Education;
