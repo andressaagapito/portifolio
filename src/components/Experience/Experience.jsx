@@ -10,7 +10,7 @@ function Experience() {
       <img
         src={greenstar}
         alt="Green Star"
-        className="absolute -top-4 right-2 w-12 h-12 z-10"
+        className="absolute -top-4 right-2 w-14 h-14 z-10"
       />
 
 			{/* Imagem asterisk posicionada no canto inferior esquerdo */}
