@@ -3,6 +3,8 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
+import greenstar from "../../assets/miscellaneous/greenstar.png";
+import asterisk from "../../assets/miscellaneous/asterisk.png"
 
 function Dashboard() {
   // Estado para armazenar o componente selecionado; inicia com "dashboard"
@@ -42,10 +44,28 @@ function Dashboard() {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto relative">
+      {selectedComponent === "dashboard" && (
+				<>
+				{/* Imagem greenstar posicionada no canto superior direito */}
+				<img
+				src={greenstar}
+				alt="Green Star"
+				className="absolute -top-4 right-2 w-12 h-12 z-10"
+        />
+
+				{/* Imagem asterisk posicionada no canto inferior esquerdo */}
+				<img
+        src={asterisk}
+        alt="Asterisk"
+        className="absolute -bottom-5 -left-4 w-16 h-16 z-10"
+      />
+			</>
+      )}
+
       {/* Barra de título "HOME", exibida somente quando o dashboard está ativo */}
       {selectedComponent === "dashboard" && (
-        <div className="bg-yellow-400 p-2 mb-2 text-left">
+        <div className="bg-yellow-400 p-2 mb-2 text-left relative">
           <h1 className="text-xl font-bold text-gray-800 m-0 text-center">
             HOME
           </h1>
@@ -65,7 +85,8 @@ function Card({ text, color, onClick }) {
   return (
     <div
       onClick={onClick}
-      className={`relative flex items-center justify-center w-32 h-32 mt-10 ${color} text-black font-bold text-center shadow-lg p-4 transform transition-transform duration-300 hover:scale-110 cursor-pointer`}>
+      className={`relative flex items-center justify-center w-32 h-32 mt-10 ${color} text-black font-bold text-center shadow-lg p-4 transform transition-transform duration-300 hover:scale-110 cursor-pointer`}
+    >
       {/* Pin decorativo no topo do cartão */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1 w-4 h-4 bg-gray-500 rounded-full shadow-md z-10"></div>
 

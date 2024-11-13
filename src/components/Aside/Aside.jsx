@@ -1,24 +1,44 @@
 import React from "react";
 import Profile from "../../assets/profile/Profile.png";
+import purple from "../../assets/miscellaneous/purple.png";
+import arrow from "../../assets/miscellaneous/arrow.png"; // Importa a imagem da seta
 
 function Aside() {
   return (
-    // Container principal, configurado como coluna flexível e centralizado
+    // Container principal
     <div className="flex flex-col justify-center items-center text-center sm:mt-0">
-      {/* Bloco de texto que exibe o nome e o cargo */}
-      <div className="inline-block">
-        {/* Nome do desenvolvedor com estilo personalizado de fonte, tamanho grande e espaçamento */}
+      
+      {/* Bloco de nome e título */}
+      <div className="inline-block relative">
+        {/* Seta posicionada acima do nome "Silva", visível apenas em telas acima de 1059px */}
+        <img 
+          src={arrow} 
+          alt="Arrow" 
+          className="absolute top-4 -right-10 w-16 h-10 hidden-below-1190"
+        />
+
+        {/* Título */}
         <h1 className="font-lato font-bold text-black text-5xl m-5">
           Andressa C. Silva
         </h1>
-
-        {/* Cargo do desenvolvedor, com variação de tamanho de fonte para responsividade */}
-        <h2 className="font-sedgwick text-black text-3xl sm:text-4xl md:text-2xl lg:text-3xl xl:text-4xl font-normal">
-          Desenvolvedora Front End
-        </h2>
+        
+        {/* Subtítulo e marcador roxo */}
+        <div className="relative inline-flex items-center justify-center">
+          <h2 className="font-sedgwick text-black text-3xl sm:text-4xl md:text-2xl lg:text-3xl xl:text-4xl font-normal relative z-10">
+            Desenvolvedora Front End
+          </h2>
+          
+          {/* Marcador roxo abaixo do subtítulo */}
+          <img 
+            src={purple} 
+            alt="Purple" 
+            className="absolute bottom-[-10px] left-[80%] transform -translate-x-1/2 w-[40%] z-0"
+          />
+        
+        </div>
       </div>
 
-      {/* Imagem de perfil com largura e altura responsivas */}
+      {/* Imagem */}
       <img
         src={Profile}
         alt="Profile"

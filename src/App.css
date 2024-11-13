@@ -44,3 +44,9 @@
     width: 100%; /* As colunas ocupam 100% da largura */
   }
 }
+
+@media (max-width: 1190px) {
+  .hidden-below-1190 {
+    display: none;
+  }
+}
