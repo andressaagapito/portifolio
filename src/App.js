@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
+import Portifolio from "./components/Portifolio/Portifolio";
 import About from "./components/About/About";
 import Dashboard from "./components/Dashboard/Dashboard";
 import "./App.css";
@@ -43,6 +44,9 @@ function App() {
 
           {/* Renderização condicional do componente "Education" */}
           {activeComponent === "QUALIFICAÇÃO" && <Education />}
+
+					{/* Renderização condicional do componente "Portifolio" */}
+					{activeComponent === "PORTIFÓLIO" && <Portifolio />}
 
           {/* Renderização condicional do componente "About" */}
           {activeComponent === "SOBRE" && <About />}
