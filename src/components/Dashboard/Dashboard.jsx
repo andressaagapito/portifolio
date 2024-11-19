@@ -4,8 +4,8 @@ import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
 import Portifolio from "../Portifolio/Portifolio";
 import Contact from "../Contact/Contact";
-import greenstar from "../../assets/miscellaneous/greenstar.png";
-import asterisk from "../../assets/miscellaneous/asterisk.png";
+import greenstar from "../../assets/mural/greenstar.png";
+import asterisk from "../../assets/mural/asterisk.png";
 
 function Dashboard() {
   // Estado para armazenar o componente atualmente selecionado

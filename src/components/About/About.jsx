@@ -1,6 +1,6 @@
 import React from "react";
-import greenstar from "../../assets/miscellaneous/greenstar.png";
-import asterisk from "../../assets/miscellaneous/asterisk.png"; // Importe a imagem do asterisk
+import greenstar from "../../assets/mural/greenstar.png";
+import asterisk from "../../assets/mural/asterisk.png"; // Importe a imagem do asterisk
 
 function About() {
   return (
@@ -31,8 +31,7 @@ function About() {
       <div className="flex flex-wrap justify-center items-center bg-[#efe3d4] w-full h-[80vh] overflow-auto">
         {/* Caixa de texto centralizada e responsiva, com fundo lilás, rotação leve e sombra */}
         <div
-          className={`flex flex-wrap justify-center items-center font-jetbrains bg-[#d9d7f1] w-4/5 h-4/5 mx-auto p-5 text-base box-border overflow-auto shadow-lg transform rotate-1 lg:w-10/12 md:w-10/12 sm:w-11/12 sm:h-2/3 sm:p-4 sm:text-sm`}
-        >
+          className={`flex flex-wrap justify-center items-center font-jetbrains bg-[#d9d7f1] w-4/5 h-4/5 mx-auto p-5 text-base box-border overflow-auto shadow-lg transform rotate-1 lg:w-10/12 md:w-10/12 sm:w-11/12 sm:h-2/3 sm:p-4 sm:text-sm`}>
           {/* Parágrafo descrevendo o perfil com formatação de ênfase para palavras-chave */}
           <p className="leading-relaxed text-justify">
             Sou <strong>entusiasta</strong> e <strong>curiosa</strong>, motivada

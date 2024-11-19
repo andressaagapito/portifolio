@@ -1,7 +1,7 @@
 // Componente Portifolio
 import React from "react";
-import greenstar from "../../assets/miscellaneous/greenstar.png";
-import asterisk from "../../assets/miscellaneous/asterisk.png";
+import greenstar from "../../assets/mural/greenstar.png";
+import asterisk from "../../assets/mural/asterisk.png";
 import weatherApp from "../../assets/portifolio/weatherApp.png";
 import pokedex from "../../assets/portifolio/pokedex.jpg";
 import { SiCss3, SiTailwindcss } from "react-icons/si";
