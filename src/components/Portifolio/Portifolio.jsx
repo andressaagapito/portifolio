@@ -32,27 +32,25 @@ function Portifolio() {
       </div>
 
       {/* Grid de Cards */}
-      <div className="flex flex-wrap justify-center items-center bg-[#efe3d4] w-full h-[80vh] p-4 overflow-hidden">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          {/* Cards do Weather App */}
-          <Card
-            text="WeatherApp"
-            color="bg-blue-100"
-            image={weatherApp}
-            captionColor="bg-blue-400"
-            icon={[<SiTailwindcss />, <SiJavascript />]}
-            link="https://andressaagapito.github.io/weatherApp/"
-          />
-          {/* Cards do Pokedex */}
-          <Card
-            text="Pokedex"
-            color="bg-yellow-200"
-            image={pokedex}
-            captionColor="bg-yellow-400"
-            icon={[<SiCss3 />, <SiJavascript />, <SiReact />]}
-            link="https://andressaagapito.github.io/pokedex/"
-          />
-        </div>
+      <div className="flex flex-wrap justify-evenly items-center bg-[#efe3d4] w-full h-[80vh] p-4">
+        {/* Cards do Weather App */}
+        <Card
+          text="WeatherApp"
+          color="bg-blue-100"
+          image={weatherApp}
+          captionColor="bg-blue-400"
+          icon={[<SiTailwindcss />, <SiJavascript />]}
+          link="https://andressaagapito.github.io/weatherApp/"
+        />
+        {/* Cards do Pokedex */}
+        <Card
+          text="Pokedex"
+          color="bg-yellow-200"
+          image={pokedex}
+          captionColor="bg-yellow-400"
+          icon={[<SiCss3 />, <SiJavascript />, <SiReact />]}
+          link="https://andressaagapito.github.io/pokedex/"
+        />
       </div>
     </div>
   );
