@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.1d0adf10.css",
-    "main.js": "/portifolio/static/js/main.2a6d55cd.js",
+    "main.css": "/portifolio/static/css/main.4def1c0f.css",
+    "main.js": "/portifolio/static/js/main.09d1d53e.js",
     "static/media/Profile.png": "/portifolio/static/media/Profile.b90b963d748589fe4b20.png",
     "static/media/weatherApp.png": "/portifolio/static/media/weatherApp.44cda3b1cb6108d0bb0e.png",
     "static/media/Dev-AndressaCSilva.pdf": "/portifolio/static/media/Dev-AndressaCSilva.fee6474de615aa80a4f1.pdf",
@@ -11,11 +11,11 @@
     "static/media/purple.png": "/portifolio/static/media/purple.409c9760e3d5d89e9c35.png",
     "static/media/greenstar.png": "/portifolio/static/media/greenstar.fd8bdadde932afea6914.png",
     "index.html": "/portifolio/index.html",
-    "main.1d0adf10.css.map": "/portifolio/static/css/main.1d0adf10.css.map",
-    "main.2a6d55cd.js.map": "/portifolio/static/js/main.2a6d55cd.js.map"
+    "main.4def1c0f.css.map": "/portifolio/static/css/main.4def1c0f.css.map",
+    "main.09d1d53e.js.map": "/portifolio/static/js/main.09d1d53e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d0adf10.css",
-    "static/js/main.2a6d55cd.js"
+    "static/css/main.4def1c0f.css",
+    "static/js/main.09d1d53e.js"
   ]
 }
