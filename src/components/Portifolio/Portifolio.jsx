@@ -3,9 +3,14 @@ import greenstar from "../../assets/mural/greenstar.png";
 import asterisk from "../../assets/mural/asterisk.png";
 import weatherApp from "../../assets/portifolio/weatherApp.png";
 import pokedex from "../../assets/portifolio/pokedex.jpg";
-import { SiCss3, SiTailwindcss } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiReact } from "react-icons/si";
+import taskManager from "../../assets/portifolio/taskManager.png";
+import {
+  SiCss3,
+  SiJest,
+  SiTailwindcss,
+  SiJavascript,
+  SiReact,
+} from "react-icons/si";
 
 function Portifolio() {
   return (
@@ -31,15 +36,15 @@ function Portifolio() {
         </h1>
       </div>
 
-      {/* Grid de Cards */}
-      <div className="flex flex-wrap justify-evenly items-center bg-[#efe3d4] w-full h-[80vh] p-4">
+      {/* Mural com altura fixa */}
+      <div className="flex flex-wrap justify-center items-center bg-[#efe3d4] w-full h-[80vh] p-4 gap-6 overflow-auto">
         {/* Cards do Weather App */}
         <Card
           text="WeatherApp"
-          color="bg-blue-100"
+          color="bg-blue-200"
           image={weatherApp}
-          captionColor="bg-blue-400"
-          icon={[<SiTailwindcss />, <SiJavascript />]}
+          captionColor="bg-blue-200"
+          icon={[<SiTailwindcss />, <SiJavascript />, <SiJest />]}
           link="https://andressaagapito.github.io/weatherApp/"
         />
         {/* Cards do Pokedex */}
@@ -47,26 +52,34 @@ function Portifolio() {
           text="Pokedex"
           color="bg-yellow-200"
           image={pokedex}
-          captionColor="bg-yellow-400"
+          captionColor="bg-yellow-200"
           icon={[<SiCss3 />, <SiJavascript />, <SiReact />]}
           link="https://andressaagapito.github.io/pokedex/"
+        />
+        {/* Cards do Task Manager */}
+        <Card
+          text="Task Manager"
+          color="bg-yellow-200"
+          image={taskManager}
+          captionColor="bg-green-200"
+          icon={[<SiCss3 />, <SiJavascript />, <SiReact />]}
+          link="https://andressaagapito.github.io/task-manager/"
         />
       </div>
     </div>
   );
 }
 
-// Componente Card estilizado
 function Card({ text, color, image, captionColor, icon, link }) {
   return (
     <a
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex flex-col items-center no-underline">
+      className="flex flex-col items-center no-underline max-w-xs">
       {/* Card com a imagem inteira dentro */}
       <div
-        className={`relative flex items-center justify-center w-32 h-32 sm:w-40 sm:h-40 ${color} shadow-lg transform transition-transform duration-300 hover:scale-110 cursor-pointer`}>
+        className={`relative flex items-center justify-center w-32 h-32 sm:w-40 sm:h-40 ${color} shadow-lg transform transition-transform duration-300 hover:scale-110 cursor-pointer rounded-lg`}>
         {/* Pino decorativo no topo do card */}
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1 w-4 h-4 bg-gray-500 rounded-full shadow-md z-10"></div>
 
@@ -74,7 +87,7 @@ function Card({ text, color, image, captionColor, icon, link }) {
         <img
           src={image}
           alt={text}
-          className="w-full h-full object-cover rounded"
+          className="w-full h-full object-cover rounded-lg"
         />
       </div>
 
