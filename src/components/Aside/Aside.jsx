@@ -24,7 +24,7 @@ function Aside() {
         {/* Subtítulo e marcador roxo */}
         <div className="relative inline-flex items-center justify-center">
           <h2 className="font-sedgwick text-black text-3xl sm:text-4xl md:text-2xl lg:text-3xl xl:text-4xl font-normal relative z-10">
-            Desenvolvedora Front End
+            Desenvolvedora Full Stack
           </h2>
 
           {/* Marcador roxo abaixo do subtítulo */}

@@ -35,23 +35,26 @@ function Education() {
           {/* Texto descritivo da qualificação, incluindo formação acadêmica e certificações */}
           <p>
             {/* Informação sobre a universidade e curso */}
-            Universidade Estácio de Sá
-            <br />
-            <strong>Análise e Desenvolvimento de Sistemas</strong>
-            <br />
-            <em>2021, 2025</em>
-            <br />
-            <br />
-            {/* Nível de inglês */}
-            <strong>Inglês</strong>: Intermediário
+            <strong>Formação Acadêmica:</strong> <br />
+            Universidade Estácio de Sá <br />
+            <strong>Análise e Desenvolvimento de Sistemas</strong> <br />
+            <em>2021 – 2025</em>
             <br />
             <br />
-            {/* Certificações e cursos adicionais */}
-            <strong>Fundamentos de Product Discovery</strong>
+            {/* Idiomas */}
+            <strong>Idiomas:</strong> <br />
+            <strong>Inglês</strong>: Intermediário (EF SET English Certificate
+            70/100 – C1 Advanced) <br />
+            <strong>Espanhol</strong>: Básico
             <br />
-            <strong>Princípios de Gerenciamento de Projetos</strong>
             <br />
-            <strong>Scrum Fundamentals Certified</strong>
+            {/* Certificações */}
+						<strong>Certificações:</strong> <br />
+						Figma para Desenvolvedores <br />
+						Trabalho em Equipe <br />
+						Gestão Inteligente do Tempo <br />
+						Comunicação Avançada: Escuta Ativa, Empatia e Assertividade
+            <br />
           </p>
         </div>
       </div>
