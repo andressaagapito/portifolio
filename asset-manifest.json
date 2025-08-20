@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portifolio/static/css/main.8d76634e.css",
-    "main.js": "/portifolio/static/js/main.da7f0642.js",
+    "main.js": "/portifolio/static/js/main.47933179.js",
     "static/media/Profile.png": "/portifolio/static/media/Profile.b90b963d748589fe4b20.png",
     "static/media/weatherApp.png": "/portifolio/static/media/weatherApp.44cda3b1cb6108d0bb0e.png",
-    "static/media/Dev-AndressaCSilva.pdf": "/portifolio/static/media/Dev-AndressaCSilva.fee6474de615aa80a4f1.pdf",
+    "static/media/Dev-AndressaCSilva.pdf": "/portifolio/static/media/Dev-AndressaCSilva.3df03ea0f76f87b957b4.pdf",
     "static/media/pokedex.jpg": "/portifolio/static/media/pokedex.a006652f0404eb493072.jpg",
     "static/media/asterisk.png": "/portifolio/static/media/asterisk.15b3ee0a34cbfe6510a2.png",
     "static/media/arrow.png": "/portifolio/static/media/arrow.67c97ae70a2496d53a29.png",
@@ -13,10 +13,10 @@
     "static/media/taskManager.png": "/portifolio/static/media/taskManager.ddee50a88e07e55643db.png",
     "index.html": "/portifolio/index.html",
     "main.8d76634e.css.map": "/portifolio/static/css/main.8d76634e.css.map",
-    "main.da7f0642.js.map": "/portifolio/static/js/main.da7f0642.js.map"
+    "main.47933179.js.map": "/portifolio/static/js/main.47933179.js.map"
   },
   "entrypoints": [
     "static/css/main.8d76634e.css",
-    "static/js/main.da7f0642.js"
+    "static/js/main.47933179.js"
   ]
 }
